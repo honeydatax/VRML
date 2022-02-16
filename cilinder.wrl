@@ -1,0 +1,28 @@
+#VRML V2.0 utf8
+Background{
+	skyAngle [1.2 1.57 ]
+	skyColor [ 0.7 0.7 0.7, 0.6 0.6 0.6 ]
+	groundAngle [1.57]
+	groundColor [ 0.2 0.2 0.2 ,0.3 0.3 0.3]
+}
+
+Transform
+  {
+  children 
+    Shape
+      {
+      appearance Appearance
+	{
+	material Material
+	  {
+	  	  diffuseColor 0.5 0.5 0.5 
+	  }
+	}
+      geometry Cylinder
+	{
+	height 3
+	radius 2
+	}
+      }
+  }
+
