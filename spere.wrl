@@ -1,12 +1,32 @@
 #VRML V2.0 utf8
-Background{
-	skyAngle [1.2 1.57 ]
-	skyColor [ 0.7 0.7 0.7, 0.6 0.6 0.6 ]
-	groundAngle [1.57]
-	groundColor [ 0.2 0.2 0.2 ,0.3 0.3 0.3]
-}
+
+Background
+  {
+  groundAngle 1.57000005
+  groundColor 
+    [
+    0.20000000 0.20000000 0.20000000
+    0.30000001 0.30000001 0.30000001
+    ]
+  skyAngle 
+    [
+    1.20000004
+    1.57000005
+    ]
+  skyColor 
+    [
+    0.69999998 0.69999998 0.69999998
+    0.60000002 0.60000002 0.60000002
+    ]
+  }
+
 Transform
   {
+  scale 1 1 1
+  scaleOrientation 0 0 1 0
+  center 0 0 0
+  rotation  0 0 1 0
+  translation 0 0 0
   children 
     Shape
       {
@@ -14,12 +34,12 @@ Transform
 	{
 	material Material
 	  {
-		diffuseColor 0.5 0.5 0.5 
+	  diffuseColor 0.50000000 0.50000000 0.50000000
 	  }
 	}
       geometry Sphere
 	{
-	radius 3
+	radius 2.98193430
 	}
       }
   }
